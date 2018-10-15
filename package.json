@@ -1,0 +1,22 @@
+{
+  "name": "subscription-checker",
+  "version": "1.0.0",
+  "description": "Diagnostic tool for checking status of subscriptions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jakub Konecny",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link": "^1.2.3",
+    "apollo-link-ws": "^1.0.9",
+    "axios": "^0.18.0",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "micro": "^9.3.3",
+    "micro-query": "^0.3.0",
+    "shortid": "^2.2.13",
+    "subscriptions-transport-ws": "^0.9.15"
+  }
+}
